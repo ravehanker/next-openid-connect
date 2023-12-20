@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ravehanker/next-openid-connect/issues"
   },
-  "homepage": "https://github.com/ravehanker/next-openid-connect#readme"
+  "homepage": "https://github.com/ravehanker/next-openid-connect#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
