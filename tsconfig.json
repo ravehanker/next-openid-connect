@@ -6,7 +6,10 @@
     "moduleResolution": "NodeNext",
     "lib": ["ES2020", "DOM"],
     "outDir": "dist",
-    "declaration": false
+    "declaration": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["./src/**/*"],
   "ts-node": {
